@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Details</title>
+        <link rel="stylesheet" href="../css/master.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="../css/cart.css">
+
+    </head>
+    <body 
+        style="
+        height: 100vh;
+        display: grid;
+        align-items: center;
+        grid-template-rows: auto 1fr auto;
+        "
+    >
+        <header class="flex ">
+            <a href="/" class="logo">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span style="font-weight: bold;">ALAMIN</span>
+                <P style="letter-spacing: 3.8px;font-weight: 500; ">Shopping</P>
+            </a >
+            <div class="links" >
+                <a style="position: relative;" class="cart" href="./cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Cart
+                    <span class="products-number">3</span>
+                </a>
+                <a class="sign-in" href="./signin.html">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    Sign in</a>
+                <a class="register" href="./register.html">
+                    <i class="fa-solid fa-user-plus"></i>
+                    Register</a>
+            </div>
+
+
+        </header>
+        <main style="text-align: center" class="">
+            <section class="cart">
+              <article class="product flex">
+                <button>
+                  <i class="fa-solid fa-trash-can"> </i>
+                </button>
+      
+                <p class="price">$133</p>
+      
+                <div class="flex" style="margin-right: 1rem">
+                  <button class="decrease">-</button>
+                  <div class="quantity flex">3</div>
+                  <button class="increase">+</button>
+                </div>
+      
+                <p class="title">Product Title</p>
+      
+                <img
+                  style="border-radius: 0.22rem"
+                  width="70"
+                  height="70"
+                  alt=""
+                  src="../image/4.webp"
+                />
+              </article>
+      
+              <article class="product flex">
+                <button>
+                  <i class="fa-solid fa-trash-can"> </i>
+                </button>
+      
+                <p class="price">$133</p>
+      
+                <div class="flex" style="margin-right: 1rem">
+                  <button class="decrease">-</button>
+                  <div class="quantity flex">3</div>
+                  <button class="increase">+</button>
+                </div>
+      
+                <p class="title">Product Title</p>
+      
+                <img
+                  style="border-radius: 0.22rem"
+                  width="70"
+                  height="70"
+                  alt=""
+                  src="../image/6.webp"
+                />
+              </article>
+      
+              <article class="product flex">
+                <button>
+                  <i class="fa-solid fa-trash-can"> </i>
+                </button>
+      
+                <p class="price">$133</p>
+      
+                <div class="flex" style="margin-right: 1rem">
+                  <button class="decrease">-</button>
+                  <div class="quantity flex">3</div>
+                  <button class="increase">+</button>
+                </div>
+      
+                <p class="title">Product Title</p>
+      
+                <img
+                  style="border-radius: 0.22rem"
+                  width="70"
+                  height="70"
+                  alt=""
+                  src="../image/5.webp"
+                />
+              </article>
+            </section>
+      
+            <button class="clear">
+              <i
+                style="color: #fff; margin-right: 0.2rem"
+                class="fa-solid fa-trash-can icon"
+              >
+              </i>
+              Clear Cart
+            </button>
+      
+            <section class="summary">
+              <h1>Cart Summary</h1>
+      
+              <div class="flex">
+                <p class="Subtotal">Subtotal</p>
+                <p>$1999</p>
+              </div>
+              <button disabled class="checkout">CHECKOUT</button>
+      
+              <a href="./signin.html"> Please Sign in to continue. </a>
+            </section>
+        </main>
+
+        <footer>
+            Designed and developed by
+            <span> Mohamed Elhefnawy </span>
+            © 2024.
+        </footer>
+    </body>
+</html>

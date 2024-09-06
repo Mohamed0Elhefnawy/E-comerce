@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/product-details.css">
+</head>
+
+<body style="
+        height: 100vh;
+        display: grid;
+        align-items: center;
+        grid-template-rows: auto 1fr auto;
+        ">
+    <header class="flex ">
+        <a href="/" class="logo">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span style="font-weight: bold;">ALAMIN</span>
+            <P style="letter-spacing: 3.8px;font-weight: 500; ">Shopping</P>
+        </a>
+        <div class="links">
+            <a style="position: relative;" class="cart" href="./cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+                <span class="products-number">3</span>
+            </a>
+            <a class="sign-in" href="./signin.html">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                Sign in</a>
+            <a class="register" href="./register.html">
+                <i class="fa-solid fa-user-plus"></i>
+                Register</a>
+        </div>
+
+
+    </header>
+    <main style="text-align: center;" class="flex">
+
+        <img alt="" src="../image/2.webp" />
+
+        <div class="product-details">
+            <div style="justify-content: space-between" class="flex">
+                <h2>Product title</h2>
+                <p class="price">$14.99</p>
+            </div>
+
+            <p class="description">
+                A product description is a piece of marketing copywriting that tells people what a product is and why
+                its worth buying. Beyond a list of product details or features, descriptions tell a story about what
+                makes a product special and persuade customers to make a purchase
+            </p>
+
+            <button class="flex add-to-cart">
+                <i class="fa-solid fa-cart-plus"></i>
+                Add To Cart
+            </button>
+        </div>
+
+    </main>
+
+    <footer>
+        Designed and developed by
+        <span> Mohamed Elhefnawy </span>
+        © 2024.
+    </footer>
+</body>
+
+</html>
